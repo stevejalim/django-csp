@@ -37,6 +37,7 @@ test_requires = [
     "pytest-flakes",
     "mock",
     "six",
+    "pre-commit",
 ]
 
 test_requires += jinja2_requires

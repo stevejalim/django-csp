@@ -13,7 +13,13 @@ Style
 =====
 
 Patches should follow PEP8_ and should not introduce any new violations
-as detected by the flake8_ tool.
+as detected by the flake8_ tool. These will be automatically enforced using
+the `pre-commit`_ tool.
+
+To install the pre-commit hook::
+
+    pip install -e ".[tests]"
+    pre-commit install
 
 
 Tests
@@ -37,3 +43,4 @@ Then just `py.test`_ to run the tests::
 .. _flake8: https://pypi.python.org/pypi/flake8
 .. _virtualenv: http://www.virtualenv.org/
 .. _py.test: https://pytest.org/latest/usage.html
+.. _pre-commit: https://pre-commit.com/
