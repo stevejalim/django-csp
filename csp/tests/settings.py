@@ -31,7 +31,7 @@ TEMPLATES = [
         'OPTIONS': {
             'environment': 'csp.tests.environment.environment',
             'extensions': ['csp.extensions.NoncedScript']
-            },
+        },
     },
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

@@ -35,6 +35,7 @@ class CSPMiddleware(MiddlewareMixin):
     See http://www.w3.org/TR/CSP/
 
     """
+
     def _make_nonce(self, request):
         # Ensure that any subsequent calls to request.csp_nonce return the
         # same value

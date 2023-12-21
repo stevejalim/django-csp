@@ -40,7 +40,7 @@ def from_settings():
         'report-uri': getattr(settings, 'CSP_REPORT_URI', None),
         'report-to': getattr(settings, 'CSP_REPORT_TO', None),
         'require-sri-for': getattr(settings, 'CSP_REQUIRE_SRI_FOR', None),
-        #trusted Types Directives
+        # trusted Types Directives
         'require-trusted-types-for': getattr(
             settings,
             'CSP_REQUIRE_TRUSTED_TYPES_FOR', None),
